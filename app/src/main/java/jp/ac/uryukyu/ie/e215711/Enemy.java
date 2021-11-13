@@ -10,33 +10,65 @@ package jp.ac.uryukyu.ie.e215711;
  */
 public class Enemy {
     private String name;
+    /**
+     * Enemy.nameの文字列のgetter
+     * @return getterで取り出したname。
+     */
     public String getEnemyName(){
         return this.name;
     }
+    /**
+     * Enemy.nameの文字列のsetter
+     * @param name フィールドに代入する名前。
+     */
     public void setEnemyName(String name){
         this.name = name;
     }
 
     private int hitPoint;
+    /**
+     * Enemy.hitPointの数値のgetter。
+     * @return　getterで取り出したhitPointの数値。
+     */
     public int getEnemyHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * Enemy.hitPointの数値のsetter。
+     * @param hitPoint　フィールドに代入するHPの数値。
+     */
     public void setEnemyHitPoint(int hitPoint){
         this.hitPoint = hitPoint;
     }
 
     private int attack;
+    /**
+     * Enemy.attackの数値のgetter。
+     * @return getterで取り出したattackの数値。
+     */
     public int getEnemyAttack(){
         return this.attack;
     }
+    /**
+     * Enemy.attackの数値のsetter。
+     * @param attack　フィールドに代入するattackの数値。
+     */
     public void setEnemyAttack(int attack){
         this.attack = attack;
     }
 
     private boolean dead;
+    /**
+     * Enemy.deadの真偽値のgetter。
+     * @return TrueOrFale getterで取り出した真偽値。
+     */
     public boolean isEnemyDead(){
         return this.dead;
     }
+    /**
+     * Enemy.deadの真偽値のsetter。
+     * @param dead　敵の生死に関する真偽値。
+     */
     public void setEnemyDead(boolean dead){
         this.dead = dead;
     }

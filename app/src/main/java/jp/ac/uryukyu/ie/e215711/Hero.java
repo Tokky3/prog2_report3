@@ -10,33 +10,65 @@ package jp.ac.uryukyu.ie.e215711;
  */
 public class Hero {
     private String name;
+    /**
+     * Hero.nameの文字列のgetter。
+     * @return getterで取り出したname。
+     */
     public String getHeroName(){
         return this.name;
     }
+    /**
+     * Hero.nameの文字列のsetter。
+     * @param name フィールドに代入する名前。
+     */
     public void setHeroName(String name){
         this.name = name;
     }
 
     private int hitPoint;
+    /**
+     * Hero.hitPointの数値のgetter。
+     * @return getterで取り出したhitPoint。
+     */
     public int getHeroHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * Hero.hitPointの数値のetter。
+     * @param hitPoint フィールドに代入するHPの値。
+     */
     public void setHeroHitPoint(int hitPoint){
         this.hitPoint = hitPoint;
     }
 
     private int attack;
+    /**
+     * Hero.attackの数値のgetter。
+     * @return getterで取り出したattack。
+     */
     public int getHeroAttack(){
         return this.attack;
     }
+    /**
+     * Hero.attackの数値のsetter。
+     * @param attack フィールドに代入するattackの値。
+     */
     public void setHeroAttack(int attack){
         this.attack = attack;
     }
 
     private boolean dead;
+    /**
+     * Hero.deadの真偽値のgetter。
+     * @return　TrueOrFalse 勇者の生死に関する真偽値。
+     */
     public boolean isHeroDead(){
         return this.dead;
     }
+    /**
+     * Hero .deadの真偽値のsetter。
+     * @param dead 真偽値。
+     */
     public void setHeroDead(boolean dead){
         this.dead = dead;
     }
